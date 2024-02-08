@@ -127,3 +127,10 @@ button{
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.footer{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
