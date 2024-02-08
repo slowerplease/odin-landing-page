@@ -8,7 +8,7 @@ body{
 
 .header, .footer{
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #F9FAF8; 
 }
 
 nav{
@@ -38,6 +38,7 @@ p{
     font-size: 18px;
     color:#E5E7EB;
 }
+
 .logo{
     font-size: 24px;
     font-weight: bold;
@@ -62,6 +63,52 @@ p{
     min-width: 400px;
     background-color: gray;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+
+}
+
+.blurb{
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    padding-bottom: 40px;
+}
+
+.card-block{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding-bottom: 40px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card-image{
+    border: #3882F6 solid 4px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.card p {
+    color: #1F2937;
+}
+.quote-block{
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
 button{
     background-color: #3882F6;
     color: #F9FAF8;
