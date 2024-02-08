@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: inline-flex;
+}
+
+ul{
+    display: inline-flex;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero{
+    display:flex;
+
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
