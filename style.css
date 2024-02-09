@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .header, .footer{
@@ -125,9 +126,39 @@ p{
 }
 button{
     background-color: #3882F6;
+    border-radius: 5px;
     color: #F9FAF8;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.action-box button {
+    border: #F9FAF8 2px solid;
 }
 
+.action-block{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.action-box{
+    display: flex;
+    margin:80px;
+    width: 75%;
+    height: 200px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
 .footer{
     display: flex;
     height: 80px;
